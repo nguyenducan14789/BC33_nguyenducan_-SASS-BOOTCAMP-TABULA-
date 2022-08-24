@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+// .feature {
+//     padding: 30px 0;
+
+//     .container {
+
+//         .row {
+//             display: flex;
+//             align-items: center;
+
+//             .col-left {}
+
+//             .col-right {
+//                 h2 {
+//                     @include text($text-base, $text-semibold, $text-c1-primary);
+//                 }
+
+//                 h1 {
+//                     @include text($text-4-x-l, $text-bold, $text-c1-dark);
+//                 }
+
+//                 p {
+//                     @include text($text-base, $text-regular, $text-c1-dark);
+//                 }
+//             }
+//         }
+
+//         .row1 {
+//             display: flex;
+//             margin-top: 30px;
+
+//             .col {
+//                 display: flex;
+
+//                 .item {
+//                     a {
+//                         text-decoration: none;
+
+//                         i {
+//                             font-size: $text-4xl;
+//                             padding: 0 5px;
+//                             color: $text-c1-dark;
+//                         }
+//                     }
+//                 }
+
+//                 .item1 {
+//                     padding: 0 20px;
+
+//                     a {
+//                         text-decoration: none;
+//                         @include text($text-x-xs, $text-semibold, $text-c1-primary)
+//                     }
+
+//                     p {
+//                         @include text($text-base, $text-regular, $text-c1-dark)
+//                     }
+//                 }
+//             }
+
+//             .col1 {
+//                 &:hover {
+//                     .item {
+//                         a {
+//                             i {
+//                                 color: $text-c1-primary;
+//                                 transition: all 0.2s;
+//                             }
+//                         }
+//                     }
+
+//                     .item1 {
+//                         a {
+//                             color: $text-c1-dark;
+//                             transition: all 0.2s;
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .col2 {
+//                 &:hover {
+
+//                     .item {
+//                         a {
+//                             i {
+//                                 color: $text-c1-primary;
+//                                 transition: all 0.2s;
+//                             }
+//                         }
+//                     }
+
+//                     .item1 {
+//                         a {
+//                             color: $text-c1-dark;
+//                             transition: all 0.2s;
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .col3 {
+//                 &:hover {
+//                     .item {
+//                         a {
+//                             i {
+//                                 color: $text-c1-primary;
+//                                 transition: all 0.2s;
+//                             }
+//                         }
+//                     }
+
+//                     .item1 {
+//                         a {
+//                             color: $text-c1-dark;
+//                             transition: all 0.2s;
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .col4 {
+//                 &:hover {
+//                     .item {
+//                         a {
+//                             i {
+//                                 color: $text-c1-primary;
+//                                 transition: all 0.2s;
+//                             }
+//                         }
+//                     }
+
+//                     .item1 {
+//                         a {
+//                             color: $text-c1-dark;
+//                             transition: all 0.2s;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+
+//     }
+// }
+
+
+// .reason {
+//     padding-bottom: 200px;
+
+//     .container {
+//         display: flex;
+//         align-items: center;
+
+//         .col-left {
+//             position: relative;
+//             padding: 0 130px;
+
+//             img {
+//                 position: absolute;
+//                 width: 85%;
+//                 left: 70px;
+//                 top: -20px;
+//             }
+
+//             h2 {
+//                 margin-top: 100px;
+//                 padding: 50px 0;
+//                 text-align: center;
+//                 font-style: italic;
+//                 line-height: 50px;
+//                 @include text($text-2x-l, $text-light, $text-c1-dark);
+//             }
+
+//             h1 {
+//                 // margin-top: 50px;
+//                 text-align: center;
+//                 @include text($text-m, $text-semibold, $text-c1-primary);
+//             }
+
+//             p {
+//                 text-align: center;
+//                 @include text($text-base, $text-regular, $text-c1-dark);
+//             }
+//         }
+
+//         .col-right {}
+//     }
+// }
